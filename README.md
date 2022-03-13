@@ -34,8 +34,9 @@
 - **데이터 분석**
   - 명절 기간에 선물세트 물량은 얼마나 증가할까? 선물세트를 팔아야 하는 좋은 시점은? [월별/일별/시간대별 물량추이](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/3.%20EDA/time_series_EDA.ipynb)
   - 어떤 키워드를 제목에 넣으면 사람들이 많이 클릭하고 하트(관심)를 누를까? [제목 텍스트 가중치 분석](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/4.%20modeling/weight_modeling.ipynb)
-- **실험**
-  - 분석 결과에 따라 실제로 가중치가 높은 키워드를 넣으면 조회수와 관심도가 올라갈까? (제목텍스트에 따른 조회수와 관심도 비교 실험)
+    
+  
+- **실험** : 분석 결과에 따라 실제로 가중치가 높은 키워드를 넣으면 조회수와 관심도가 올라갈까? (제목텍스트에 따른 조회수와 관심도 비교 실험)
 
 ## 발표 자료 및 영상
 - 발표 영상: [https://youtu.be/JPZETe3eab0](https://youtu.be/JPZETe3eab0)
