@@ -29,7 +29,7 @@
 - **전처리**
   - [날짜 전처리](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/2.%20preprocessing/preprocessing_25gu_timedelta_year.ipynb)
   - [제목 텍스트 전처리 및 카테고리 분류](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/2.%20preprocessing/BPE_token_year.ipynb) 
-    : BPE(Byte Pair Encoding) 토크나이징 - 딕셔너리 제작 - 카테고리 분류 및 컬럼 생성
+    - BPE(Byte Pair Encoding) 토크나이징 - 딕셔너리 제작 - 카테고리 분류 및 컬럼 생성
 - **[EDA](https://github.com/hmii/daangn_giftitem_deals_analysis/tree/master/3.%20EDA)** 
 - **데이터 분석**
   - 명절 기간에 선물세트 물량은 얼마나 증가할까? 선물세트를 팔아야 하는 좋은 시점은? [월별/일별/시간대별 물량추이](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/3.%20EDA/time_series_EDA.ipynb)
