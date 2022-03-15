@@ -23,23 +23,30 @@
 
 
 ## 주요 역할
-### 1. [데이터 수집](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/1.%20scraping/Carrot_scrapping_BS.ipynb)
+✔[데이터 수집](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/1.%20scraping/Carrot_scrapping_BS.ipynb)
 - 당근마켓 홈페이지에서 서울시 25개구에서 '선물세트'로 등록된 일년치 물량 스크래핑 
  
-### 2. 전처리
+✔전처리
 - [날짜 전처리](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/2.%20preprocessing/preprocessing_25gu_timedelta_year.ipynb)
 - [제목 텍스트 전처리 및 카테고리 분류](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/2.%20preprocessing/BPE_token_year.ipynb) 
   - BPE(Byte Pair Encoding) 토크나이징 - 딕셔너리 제작 - 카테고리 분류 및 컬럼 생성
-### 3. [EDA](https://github.com/hmii/daangn_giftitem_deals_analysis/tree/master/3.%20EDA)
-### 4. 데이터 분석
-- Q. 명절 기간에 선물세트 물량은 얼마나 증가할까? 선물세트를 팔아야 하는 좋은 시점은? 
-  - [월별/일별/시간대별 물량추이](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/3.%20EDA/time_series_EDA.ipynb)
-- Q. 어떤 키워드를 제목에 넣으면 사람들이 많이 클릭하고 하트(관심)를 누를까? 
-  - [제목 텍스트 가중치 분석](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/4.%20modeling/weight_modeling.ipynb)
-### 5. 실험 
-- Q. 분석 결과에 따라 실제로 가중치가 높은 키워드를 넣으면 조회수와 관심도가 올라갈까? 
-  - 제목텍스트에 따른 조회수와 관심도 비교 실험
+ 
+✔데이터 분석  
+- Q. 명절 기간에 선물세트 물량은 얼마나 증가할까? 선물세트를 팔아야 하는 좋은 시점은? [월별/일별/시간대별 물량추이](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/3.%20EDA/time_series_EDA.ipynb)  
+- Q. 어떤 키워드를 제목에 넣으면 사람들이 많이 클릭하고 하트(관심)를 누를까? [제목 텍스트 가중치 분석](https://github.com/hmii/daangn_giftitem_deals_analysis/blob/dc943e55fb8b1a95a995cfd50b4f4339621d6011/4.%20modeling/weight_modeling.ipynb)
+
+✔실험   
+- Q. 분석 결과에 따라 실제로 가중치가 높은 키워드를 넣으면 조회수와 관심도가 올라갈까? -> 제목텍스트에 따른 조회수와 관심도 비교 실험
 
 ## 발표 자료 및 영상
 - 발표 영상: [https://youtu.be/JPZETe3eab0](https://youtu.be/JPZETe3eab0)
 - 발표 평가: [https://youtu.be/JPZETe3eab0?t=1049](https://youtu.be/JPZETe3eab0?t=1049)
+
+### EDA Questions
+```
+Q. 구별 매물수량 / 가격, 조회수, 관심도 평균은?
+Q. 일별 가격, 조회수 변화는? 24시간 물량 중 끌올 물량의 비율은?
+Q. 날짜에 따른 상품별 평균 가격은?
+Q. 끌올 횟수는? 끌올 시 가격 변화는?
+Q. 월별 선물 종류의 물량 차이는? 
+```
